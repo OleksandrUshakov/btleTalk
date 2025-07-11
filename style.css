@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+#app {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 24px;
+}
+button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+#devices {
+  margin: 16px 0;
+}
+#chat {
+  margin-top: 16px;
+}
+#messages {
+  min-height: 120px;
+  max-height: 200px;
+  overflow-y: auto;
+  background: #e3eafc;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+#msgInput {
+  width: 70%;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+#sendBtn {
+  width: 25%;
+  margin-left: 4px;
+} 
